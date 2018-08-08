@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.8" type="template">
+	<name>Saeta</name>
+	<creationDate>2018-08-08</creationDate>
+	<author>Prepa en Línea</author>
+	<authorEmail>rodrigo.ibarra@prepaenlinea.sep.gob.mx</authorEmail>
+	<authorUrl>https://prepaenlinea.sep.gob.mx</authorUrl>
+	<copyright>SNBL 2018</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.0</version>
+	<description>Template para plataforma de educación dual SAETA</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<folder>build/images</folder>
+		<folder>build/css</folder>
+	</files>
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>footer</position>
+	</positions>
+</extension>
