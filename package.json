@@ -1,0 +1,26 @@
+{
+  "name": "SAETA",
+  "version": "1.0.0",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigoibarra/alfatic.git"
+  },
+  "author": "Rodrigo Ibarra",
+  "license": "CC-BY-NC-4.0",
+  "bugs": {
+    "url": "https://github.com/rodrigoibarra/tilde/issues"
+  },
+  "homepage": "https://github.com/rodrigoibarra/tilde",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-newer": "^1.2.0",
+    "load-grunt-config": "^0.19.2",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}

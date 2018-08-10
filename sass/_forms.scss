@@ -1,0 +1,28 @@
+.form_registro{
+    label{
+        display:block;
+        color:$griso;
+        margin-top:5px;
+    }
+    input[type=text]{
+     background-color:$grisc;
+     border:none;
+     height:40px;
+     width: 100%;
+    }
+    select, textarea{
+        color:$griso;
+        background-color:$grisc;
+        border:none;
+        border-bottom:1px solid $gris;
+        border-radius:2px;
+        min-height:40px;
+        width: 100%;
+       }
+    option{
+        padding:15px;
+    }
+    input:focus{
+    border:1px solid $azul;
+    }
+}
