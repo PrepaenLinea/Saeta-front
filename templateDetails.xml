@@ -16,8 +16,8 @@
 		<folder>build/css</folder>
 	</files>
 	<positions>
-		<position>breadcrumb</position>
-		<position>left</position>
+		<position>nav</position>
+		<position>sidebar-derecha</position>
 		<position>right</position>
 		<position>top</position>
 		<position>user1</position>
