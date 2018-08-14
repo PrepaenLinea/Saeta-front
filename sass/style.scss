@@ -3,6 +3,7 @@
 @import 'sidebar';
 @import 'botones';
 @import 'forms';
+@import 'overrides';
 
 *, *:before, *:after {
     /* Chrome 9-, Safari 5-, iOS 4.2-, Android 3-, Blackberry 7- */
@@ -16,60 +17,38 @@
   }
 
 body{
-    font-size:16px;
+    font-size:18px;
     font-family: sans-serif;
     background-color:white;
 }
 
-.mast{
-    background-color: $grisc;
-    padding:.35em;
-}
 
-.logo_saeta{
-    font-size:.75em;
-    color: $griso;
-    padding-left:.35em;
-    display: inline-block;
-}
 
-.logo_saeta span{
-    color:$verdeo;
-    display: block;
+.wrap{
+    width: 90%;
+    margin:0 auto;
 }
- .logo_saeta_st{
-    width: 135px;
-    height: 25px;
-    border-right:1px solid $griso;
-    display:inline-block;
-}
-
 .flex_grid{
  display:flex;
 }
 
 @import 'header';
 
-.global_nav{
-    width: 100%;
-    display: block;
-}
+@import 'nav';
 
 @import 'cuatrimestre';
 
-footer{
-    background-image:url(../img/texturas/textura_lineas_verde.png);
-    background-position: top -50px left;
-    background-repeat: repeat-x;
-    padding:30px 0 0 0;
-}
+@import 'footer';
 
-.footerContenido{
-    color:$grisc;
-    background-color: $verde;
-    background-image:url(../img/texturas/textura_lineas_gris.png);
-    background-position: top -50px left;
-    background-repeat: repeat-x;
-    padding:50px;
-    min-height: 200px;
-}
+@import 'modulos';
+
+
+
+.carousel-cell {
+    width: 17%;
+    height: 150px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+

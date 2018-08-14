@@ -31,3 +31,34 @@ header{
        border-radius: 5px;
        margin-top:.35em;
    }
+
+   .mast{
+    background-color: $grisc;
+    padding:.35em;
+    display: flex;
+    align-items: center;
+}
+
+.logoLink{
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;;
+}
+.logo_saeta{
+    font-size:.75em;
+    color: $griso;
+    padding-left:.35em;
+    display: inline-block;
+}
+
+.logo_saeta span{
+    color:$verdeo;
+    display: block;
+}
+ .logo_saeta_st{
+    width: 135px;
+    height: 25px;
+    border-right:1px solid $griso;
+    display:inline-block;
+}
