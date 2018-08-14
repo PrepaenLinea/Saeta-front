@@ -425,7 +425,14 @@ template {
   border: 1px solid #12B3BA;
 }
 
-/* line 7, ../../sass/style.scss */
+/******* Este archivo elimina
+o neutraliza clases y estilos nativos de joomla****/
+/* line 4, ../../sass/_overrides.scss */
+.icons, .page-header, .article-info {
+  display: none;
+}
+
+/* line 8, ../../sass/style.scss */
 *, *:before, *:after {
   /* Chrome 9-, Safari 5-, iOS 4.2-, Android 3-, Blackberry 7- */
   -webkit-box-sizing: border-box;
@@ -435,42 +442,20 @@ template {
   box-sizing: border-box;
 }
 
-/* line 18, ../../sass/style.scss */
+/* line 19, ../../sass/style.scss */
 body {
-  font-size: 16px;
+  font-size: 18px;
   font-family: sans-serif;
   background-color: white;
 }
 
-/* line 24, ../../sass/style.scss */
-.mast {
-  background-color: #E9EBED;
-  padding: .35em;
+/* line 27, ../../sass/style.scss */
+.wrap {
+  width: 90%;
+  margin: 0 auto;
 }
 
-/* line 29, ../../sass/style.scss */
-.logo_saeta {
-  font-size: .75em;
-  color: #808080;
-  padding-left: .35em;
-  display: inline-block;
-}
-
-/* line 36, ../../sass/style.scss */
-.logo_saeta span {
-  color: #158A44;
-  display: block;
-}
-
-/* line 40, ../../sass/style.scss */
-.logo_saeta_st {
-  width: 135px;
-  height: 25px;
-  border-right: 1px solid #808080;
-  display: inline-block;
-}
-
-/* line 47, ../../sass/style.scss */
+/* line 31, ../../sass/style.scss */
 .flex_grid {
   display: flex;
 }
@@ -511,10 +496,61 @@ header {
   margin-top: .35em;
 }
 
-/* line 53, ../../sass/style.scss */
+/* line 35, ../../sass/_header.scss */
+.mast {
+  background-color: #E9EBED;
+  padding: .35em;
+  display: flex;
+  align-items: center;
+}
+
+/* line 42, ../../sass/_header.scss */
+.logoLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  width: 100%;
+}
+
+/* line 48, ../../sass/_header.scss */
+.logo_saeta {
+  font-size: .75em;
+  color: #808080;
+  padding-left: .35em;
+  display: inline-block;
+}
+
+/* line 55, ../../sass/_header.scss */
+.logo_saeta span {
+  color: #158A44;
+  display: block;
+}
+
+/* line 59, ../../sass/_header.scss */
+.logo_saeta_st {
+  width: 135px;
+  height: 25px;
+  border-right: 1px solid #808080;
+  display: inline-block;
+}
+
+/* line 1, ../../sass/_nav.scss */
 .global_nav {
   width: 100%;
-  display: block;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* line 7, ../../sass/_nav.scss */
+.global_nav > li {
+  list-style: none;
+  padding: .5em;
+  color: #158A44;
+}
+/* line 12, ../../sass/_nav.scss */
+.global_nav > li a {
+  color: inherit;
+  text-decoration: none;
 }
 
 /* line 1, ../../sass/_cuatrimestre.scss */
@@ -535,7 +571,7 @@ header {
   flex-wrap: nowrap;
 }
 
-/* line 60, ../../sass/style.scss */
+/* line 1, ../../sass/_footer.scss */
 footer {
   background-image: url(../img/texturas/textura_lineas_verde.png);
   background-position: top -50px left;
@@ -543,7 +579,7 @@ footer {
   padding: 30px 0 0 0;
 }
 
-/* line 67, ../../sass/style.scss */
+/* line 8, ../../sass/_footer.scss */
 .footerContenido {
   color: #E9EBED;
   background-color: #28BD63;
@@ -551,5 +587,19 @@ footer {
   background-position: top -50px left;
   background-repeat: repeat-x;
   padding: 50px;
-  min-height: 200px;
+}
+
+/* line 17, ../../sass/_footer.scss */
+.imgCarrusel_footer {
+  width: 100%;
+  height: 0 auto;
+}
+
+/* line 45, ../../sass/style.scss */
+.carousel-cell {
+  width: 17%;
+  height: 150px;
+  margin-right: 10px;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
 }
