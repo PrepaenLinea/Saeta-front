@@ -1,0 +1,30 @@
+.hero{
+    background-color: $grisc;
+    background-image: url(../img/texturas/textura_puntos.png);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height:65vh;
+    align-items: center;
+    
+}
+
+.heroCell {
+    width: 50%;
+    text-align: center;
+    color:$gris;
+    grid-gap: 10px;
+    @media screen and (max-width: 670px) {
+        width: 100%;
+     }
+
+}
+
+.heroCell:first-of-type{
+    border-right: 1px solid $gris;
+}
+
+.logoSaeta-stack{
+    font-size: .9em;
+    display: block;
+}

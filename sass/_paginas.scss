@@ -1,0 +1,83 @@
+.articulo{
+    padding:24px 5%;
+}
+
+.moduloAcento{
+    background-color: white;
+    border-top:5px solid $verdec;
+    padding:16px;
+    margin-bottom:16px;
+}
+
+.tituloSeccion{
+    color:$verdeo;
+}
+
+.tituloSeccion:nth-of-type(even){
+    color:$azulc;
+}
+
+.tituloModulo{
+    margin-top:0;
+}
+
+.tituloPequeño{
+    font-size:.8em;
+    padding-right:1.2em;
+}
+
+.tituloPresentacion{
+    font-weight: 100;
+    font-size:1em;
+    align-self: flex-end;
+}
+
+
+.infoTabla{
+    min-width:680px;
+    width: 100%;
+    text-align: center;
+    border:2px solid white;
+
+    th{
+        background-color:$azulo;
+        color:white;
+        border:2px solid white;
+        font-weight: 300;
+
+    }
+
+    td{
+        border:2px solid white;
+        background-color:$grisc;
+        padding:8px;
+    }
+}
+
+th.tableHAcento{
+    background-color: $verde;
+}
+
+.infoIcono{
+    width: 60px;
+    float: left;
+}
+
+.recursoIcono{
+    width: 30px;
+}
+
+.iconoGrande{
+   width:80%;
+   height: auto;
+   margin:0 3em;
+}
+
+.nombreModulo{
+    color:$verdec;
+    width: 100%;
+    padding-left:3em;
+    background-image: url(../img/plecas/pleca_c3.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}

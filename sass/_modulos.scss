@@ -1,0 +1,99 @@
+.moduloInfoTercio{
+    margin:0 32px;
+    align-items: center;
+
+    img{
+        padding:16px 36px ;
+        width: 80%;
+        height: auto !important;
+        margin: 0 auto;
+    }
+}
+
+.moduloInfo{
+    background-color: $grisc;
+   max-height: 250px;
+   padding:.75em .82em;
+   border-radius: 20px;
+}
+
+.contenidoSidebar{
+    border-right:5px solid $gris;
+    padding:.73em 8px;
+}
+
+.contenidoSidebarList{
+    padding:0;
+}
+.contenidoSidebarItem{
+    font-weight: 600;
+    color:$gris;
+    list-style: none;
+    padding: .75em 0;
+    border-bottom:3px solid white;
+    cursor: pointer;
+}
+
+.contenidoTituloTipo{
+    color:$morado;
+}
+
+.contenidoTituloTipo:nth-of-type(2){
+    color:$naranja;
+}
+
+.contenidoTituloTipo:nth-of-type(3){
+    color:$rosa;
+}
+
+.recursosLista{
+    list-style: none;
+    display:flex;
+    flex-wrap: wrap;
+    padding:0;
+
+    @media screen and (max-width: 670px) {
+        display:block;
+     }
+}
+
+.recursosItem{
+    width: (100% / 2) - 2;
+    margin:.75em 1%;
+    padding:8px;
+    background-color: white;
+    color:$gris;
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+
+    img{
+        margin-right:8px;
+    }
+}
+
+.moduloNavItem{
+    color:$griso;
+    padding-right:.73em;
+    padding-left:.73em;
+    border-top:1px solid $gris;
+    img{
+        margin-right:8px;
+    }
+
+}
+
+.moduloNavItemActive{
+    color:white;
+    padding-right:.73em;
+    padding-left:.73em;
+    border-bottom:5px solid white;
+    background-image: url(../img/plecas/esquina_lineas.svg);
+    background-position: top right;
+    background-repeat: no-repeat;
+    border-top:1px solid $gris;
+    img{
+        margin-right:8px;
+    }
+
+}
