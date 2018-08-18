@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.8" type="template">
-	<name>Saeta</name>
+	<name>Saeta-front</name>
 	<creationDate>2018-08-08</creationDate>
 	<author>Prepa en Línea</author>
 	<authorEmail>rodrigo.ibarra@prepaenlinea.sep.gob.mx</authorEmail>
@@ -16,7 +16,7 @@
 		<folder>build/css</folder>
 	</files>
 	<positions>
-		<position>nav</position>
+		<position>nav-frontend</position>
 		<position>sidebar-derecha</position>
 		<position>right</position>
 		<position>top</position>

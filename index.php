@@ -19,13 +19,26 @@
     </div>
 </header>
 <div class="wrap">
-    <jdoc:include type="component" />
-    <jdoc:include type="modules" name="debug" />
-    <div class="sidebarSaeta">
-        <div class="sideBarmenu">
-            <jdoc:include type="modules" name="position-7" />
+<div class="articulo">
+    <div class="moduloFull">
+        <a href="/templates/Saeta-front/build/Docs/SAETA_Guiadeinduccion.pdf" target="_blank"><img src="/templates/Saeta-front/build/img/Guia.png" alt="Descarga la guía de inducción"></a>
+    </div>
+    <div class="flexCont">
+        <div class="moduloMedio">
+            <a href="/templates/Saeta-front/build/Docs/SATEA_Calendarioescolar.pdf" target="_blank">
+            <img src="/templates/saeta-front/build/img/calendario.png" alt="Descarga de calendario">
+            </a>
+        </div>
+        <div class="moduloMedio">
+            <a href="/templates/Saeta-front/build/Docs/SAETA_Modelodeevaluacion.pdf" target="_blank">
+            <img src="/templates/saeta-front/build/img/evaluacion.png" alt="Descarga de modelo de evaluación">
+            </a>
         </div>
     </div>
+</div>
+</div>
+    <jdoc:include type="component" />
+    <jdoc:include type="modules" name="debug" />
 </div>
 
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>

@@ -1,0 +1,105 @@
+.wrap{
+    background-image: url(../img/texturas/textura_puntos.png);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-gap: 10px;
+
+    @media screen and (max-width: 670px) {
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+    }
+}
+
+.blockeGrid{
+    background-color:$grisc;
+    max-width: 960px;
+    border-radius: 16px;
+    margin:0 auto;
+    display:grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 4fr;
+}
+
+.flexCont{
+    display:flex;
+    @media screen and (max-width: 670px) {
+       display:block;
+    }
+}
+
+.flexCenter{
+    align-items:center;
+}
+
+.flexJustify{
+    justify-content: center;
+}
+
+.flexWrap{
+    flex-wrap: wrap;
+}
+
+.moduloFull{
+    width:100%;
+    margin: .75em;
+    @media screen and (max-width: 670px) {
+        width: 100%;
+        margin:.75em 0;
+     }
+
+}
+
+.moduloMedio{
+    width:(100% / 2) - 3;
+    margin: .75em;
+    @media screen and (max-width: 670px) {
+        width: 100%;
+        margin:.75em 0;
+     }
+}
+
+.moduloTercio{
+    width:(100% / 3);
+    margin: .75em;
+    @media screen and (max-width: 670px) {
+        width: 100%;
+        margin:.75em 0;
+     }
+
+}
+
+.moduloDosTercios{
+    width:(100% / 3) * 2;
+    margin: .75em;
+    @media screen and (max-width: 670px) {
+        width: 100%;
+        margin:.75em 0;
+     }
+}
+
+.moduloCuartos{
+    width:(100% / 4);
+    margin: .75em;
+    @media screen and (max-width: 670px) {
+        width: 100%;
+        margin:.75em 0;
+     }
+}
+
+.bgColor{
+    background-color: $grisc;
+}
+
+.modulo1Presentacion{
+    background-color: $verdeo;
+    background-image: url(../img/texturas/fondo_m1.png);
+    padding:.75em;
+}
+
+.modulo1{
+    background-color: $verdeo;
+    padding: 64px 0;
+    color:white;
+}
