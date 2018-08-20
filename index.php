@@ -21,17 +21,17 @@
 <div class="wrap">
 <div class="articulo">
     <div class="moduloFull">
-        <a href="/templates/Saeta-front/build/Docs/SAETA_Guiadeinduccion.pdf" target="_blank"><img src="/templates/Saeta-front/build/img/Guia.png" alt="Descarga la guía de inducción"></a>
+        <a href="/Joomla/templates/Saeta-front/build/Docs/SAETA_Guiadeinduccion.pdf" target="_blank"><img src="/Joomla/templates/Saeta-front/build/img/Guia.png" alt="Descarga la guía de inducción"></a>
     </div>
     <div class="flexCont">
         <div class="moduloMedio">
-            <a href="/templates/Saeta-front/build/Docs/SATEA_Calendarioescolar.pdf" target="_blank">
-            <img src="/templates/saeta-front/build/img/calendario.png" alt="Descarga de calendario">
+            <a href="/Joomla/templates/Saeta-front/build/Docs/SATEA_Calendarioescolar.pdf" target="_blank">
+            <img src="/Joomla/templates/Saeta-front/build/img/calendario.png" alt="Descarga de calendario">
             </a>
         </div>
         <div class="moduloMedio">
-            <a href="/templates/Saeta-front/build/Docs/SAETA_Modelodeevaluacion.pdf" target="_blank">
-            <img src="/templates/saeta-front/build/img/evaluacion.png" alt="Descarga de modelo de evaluación">
+            <a href="/Joomla/templates/Saeta-front/build/Docs/SAETA_Modelodeevaluacion.pdf" target="_blank">
+            <img src="/Joomla/templates/Saeta-front/build/img/evaluacion.png" alt="Descarga de modelo de evaluación">
             </a>
         </div>
     </div>
@@ -51,7 +51,7 @@
             </div>
             <div class="carousel-cell">
 
-				<a href="http://sems.gob.mx/curriculoems" target="_blank" class="note-aula"><img class="imgCarrusel_footer" title="Nuevo Currículo de la Educación Media Superior" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/build/img/footer-sems/curriculo-ems.JPG"></a>
+				<a href="http://sems.gob.mx/curriculoems" target="_blank" class="note-aula"><img class="imgCarrusel_footer" title="Nuevo Currículo de la Educación Media Superior" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/build/img/footer-sems/curriculo-ems.jpg"></a>
             </div>
             <div class="carousel-cell">
 

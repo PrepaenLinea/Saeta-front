@@ -404,9 +404,10 @@ template {
   margin: 5px auto;
   text-align: center;
   border-radius: 20px 35px 0 20px;
+  cursor: pointer;
 }
 
-/* line 21, ../../sass/_botones.scss */
+/* line 22, ../../sass/_botones.scss */
 .cuatrimestreLink {
   display: block;
   background-color: #158287;
@@ -783,7 +784,7 @@ img {
 
 /* line 1, ../../sass/_paginas.scss */
 .articulo {
-  padding: 24px 5%;
+  padding: 24px 10%;
 }
 
 /* line 5, ../../sass/_paginas.scss */
