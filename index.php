@@ -21,17 +21,17 @@
 <div class="wrap">
 <div class="articulo">
     <div class="moduloFull">
-        <a href="/Joomla/templates/Saeta-front/build/Docs/SAETA_Guiadeinduccion.pdf" target="_blank"><img src="/Joomla/templates/Saeta-front/build/img/Guia.png" alt="Descarga la guía de inducción"></a>
+        <a href="/templates/Saeta-front/build/Docs/SAETA_Guiadeinduccion.pdf" target="_blank"><img src="/templates/Saeta-front/build/img/Guia.png" alt="Descarga la guía de inducción"></a>
     </div>
     <div class="flexCont">
         <div class="moduloMedio">
-            <a href="/Joomla/templates/Saeta-front/build/Docs/SATEA_Calendarioescolar.pdf" target="_blank">
-            <img src="/Joomla/templates/Saeta-front/build/img/calendario.png" alt="Descarga de calendario">
+            <a href="/templates/Saeta-front/build/Docs/SATEA_Calendarioescolar.pdf" target="_blank">
+            <img src="/templates/Saeta-front/build/img/calendario.png" alt="Descarga de calendario">
             </a>
         </div>
         <div class="moduloMedio">
-            <a href="/Joomla/templates/Saeta-front/build/Docs/SAETA_Modelodeevaluacion.pdf" target="_blank">
-            <img src="/Joomla/templates/Saeta-front/build/img/evaluacion.png" alt="Descarga de modelo de evaluación">
+            <a href="/templates/Saeta-front/build/Docs/SAETA_Modelodeevaluacion.pdf" target="_blank">
+            <img src="/templates/Saeta-front/build/img/evaluacion.png" alt="Descarga de modelo de evaluación">
             </a>
         </div>
     </div>
